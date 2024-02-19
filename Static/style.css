@@ -1,0 +1,122 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #000;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d00;
+}
+
+#raceData {
+    display: none;
+    margin-top: 20px;
+}
+
+#raceResults {
+    display: none;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #000;
+}
+
+/* F1 Official Website Styling */
+
+header {
+    padding: 20px;
+    text-align: left;
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: #000; /* Set background color to black */
+}
+
+#raceResults ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
